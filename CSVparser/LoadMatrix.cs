@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace CSVparser
 {
-    class LoadMatrix
+    public class LoadMatrix
     {
         string path;
         int skip;
