@@ -14,7 +14,7 @@ namespace CSVparser
         int skip;
         public event EventHandler PartitionComplete;
         AutoResetEvent done = new AutoResetEvent(false);
-        int running = 1;
+        private int running = 1;
 
         public LoadMatrix(string path, int skip)
         {
